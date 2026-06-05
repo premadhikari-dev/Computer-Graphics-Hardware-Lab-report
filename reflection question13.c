@@ -8,8 +8,8 @@ void main()
 	int x1=100, y1=100;
 	int x2=100, y2=200, x3=200, y3=100;
 	initgraph(&gd, &gm, "C:\\Turboc3\\bgi");
-	line(getmaxx()/2,0, getmaxx()/2,getmaxy());
-	line(0, getmaxy()/2, getmaxx(),getmaxy());
+	line(getmaxx()/2, 0, getmaxx()/2, getmaxy());      // Y-axis
+	line(0, getmaxy()/2, getmaxx(), getmaxy()/2);      // X-axis
 	line(x1,y1,x2,y2);
 	line(x2,y2,x3,y3);
 	line(x3,y3,x1,y1);
